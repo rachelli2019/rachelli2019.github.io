@@ -1,11 +1,26 @@
 {% include base_path %}
 
 {% assign title = post.title %}
+{% assign link_prefix = "/files/" %}
+{% if post.link contains "://" %}
+  {% assign link_prefix = "" %}
+{% endif %}
 
-<div class="{{ include.type | default: "list" }}__item" style="margin-bottom: 3em">
- <h3>{{ title }}  <a href="/files/{{ post.link }}" rel="permalink"> <i class="fa fa-link" aria-hidden="true"></i></a></h3>
-
-    <p class="archive__item-excerpt" style="margin-top:-.9em">  {{post.authors | markdownify}} </p>
-    <p class="archive__item-excerpt" style="margin-top:-.9em"> {{ post.conference | markdownify }}</p>
-    <p class="archive__item-excerpt" style="margin-top:-.75em"> </p>
-</div>
+<article class="publication-card">
+  <div class="publication-card__body">
+    <p class="publication-card__meta">
+      <span>{{ post.conference | markdownify | remove: '<p>' | remove: '</p>' }}</span>
+      {% if post.date %}
+        <span>{{ post.date }}</span>
+      {% endif %}
+    </p>
+    <h3 class="publication-card__title">{{ title }}</h3>
+    <div class="publication-card__authors">{{ post.authors | markdownify }}</div>
+    <div class="publication-card__links">
+      <a href="{{ link_prefix }}{{ post.link }}" rel="permalink">Paper</a>
+      {% if post.doi %}
+        <a href="{{ post.doi }}">DOI</a>
+      {% endif %}
+    </div>
+  </div>
+</article>

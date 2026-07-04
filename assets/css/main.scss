@@ -34,6 +34,101 @@
 @import "archive";
 @import "sidebar";
 
+.publications-list {
+  display: grid;
+  gap: 1.15rem;
+  margin-top: 1.5rem;
+}
+
+.publication-card {
+  position: relative;
+  padding: 1.15rem 1.25rem;
+  border: 1px solid mix(#fff, $light-gray, 35%);
+  border-left: 4px solid $info-color;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #fff 0%, mix(#fff, $info-color, 94%) 100%);
+  box-shadow: 0 8px 24px rgba($darker-gray, 0.06);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+
+  &:hover {
+    border-color: mix(#fff, $info-color, 45%);
+    box-shadow: 0 12px 28px rgba($darker-gray, 0.1);
+    transform: translateY(-1px);
+  }
+}
+
+.publication-card__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 0.75rem;
+  align-items: center;
+  margin: 0 0 0.45rem;
+  color: $gray;
+  font-size: $type-size-6;
+  font-weight: 600;
+  letter-spacing: 0;
+  text-transform: uppercase;
+
+  p {
+    margin: 0;
+  }
+
+  span + span::before {
+    content: "";
+    display: inline-block;
+    width: 0.32rem;
+    height: 0.32rem;
+    margin-right: 0.75rem;
+    border-radius: 50%;
+    background-color: mix(#fff, $gray, 35%);
+    vertical-align: middle;
+  }
+}
+
+.publication-card__title {
+  margin: 0 0 0.5rem;
+  color: $darker-gray;
+  font-size: $type-size-4;
+  line-height: 1.25;
+}
+
+.publication-card__authors {
+  color: $dark-gray;
+  font-size: 0.95em;
+  line-height: 1.5;
+
+  p {
+    margin: 0;
+  }
+}
+
+.publication-card__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.85rem;
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2rem;
+    padding: 0.3rem 0.75rem;
+    border: 1px solid mix(#fff, $info-color, 50%);
+    border-radius: 999px;
+    background-color: #fff;
+    color: mix(#000, $info-color, 16%);
+    font-size: $type-size-6;
+    font-weight: 700;
+    text-decoration: none;
+
+    &:hover {
+      border-color: $info-color;
+      background-color: mix(#fff, $info-color, 92%);
+      text-decoration: none;
+    }
+  }
+}
+
 @import "vendor/font-awesome/fontawesome";
 @import "vendor/font-awesome/solid";
 @import "vendor/font-awesome/brands";

@@ -1,4 +1,12 @@
+- title: 'Strategic Candidacy in Generative AI Arenas'
+  conference: '*arXiv preprint*, 2026'
+  authors: 'Chris Hays, **Rachel Li**, Bailey Flanigan, and Manish Raghavan'
+  link: 'https://arxiv.org/abs/2603.26891'
+  doi: 'https://doi.org/10.48550/arXiv.2603.26891'
+  date: 'March 2026'
+
 - title: 'Strategyproof Voting under Correlated Beliefs'
   conference: '*NeurIPS 2023*'
   authors: '[Daniel Halpern](https://daniel-halpern.com/), **Rachel Li**, and [Ariel D. Procaccia](http://procaccia.info)'
   link: 'strategyproof_voting_under_correlated_beliefs.pdf'
+  date: '2023'

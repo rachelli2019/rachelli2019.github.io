@@ -24,9 +24,9 @@ author:
   avatar           : "bio_photo_big.png"
   name             : "Rachel Li"
   pronouns         : # example: "she/her"  
-  bio              : "Fundamental Analyst @ Citadel Securities"
-  location         : "New York, NY"
-  employer         : "Harvard University"
+  bio              : "CS PhD @ MIT"
+  location         : "Cambridge, MA"
+  employer         : # institution
   uri              : # URL
   # email            : "none@example.org" 
 

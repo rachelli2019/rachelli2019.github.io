@@ -6,9 +6,8 @@ redirect_from:
   - /about/
   - /about.html
 ---
+Hi I'm Rachel! I'm an EECS PhD student at MIT, where I'm fortunate to be advised by <a href = "https://mraghavan.github.io/">Manish Raghavan</a>. 
 
-I recently graduated from Harvard where I studied Computer Science and Statistics. My <a href="/publications/"> senior thesis </a> research was advised by the wonderful <a href = "https://procaccia.info/">Professor Ariel Procaccia</a>. I am passionate about research at the interface of economics and computer science.
+I'm broadly interested in human-AI collaboration and decision-making in AI systems. Currently, I'm thinking about how AI affects human problem-solving and creative processes. I also enjoy applying statistical tools and mechanism design to study AI safety and evaluation.
 
-At Harvard, I co-founded <a href="https://gushclub.org/"> GUSH</a>, an statistics student organization at Harvard that hosts speaker panels, mentorship programs, educational workshops and fun socials. Since my sophomore fall of college, I have taught on <a href = "https://statistics.fas.harvard.edu/people/joseph-k-blitzstein"> Professor Joe Blitzstein</a>'s superstar teaching team for Stat 110 (Intro to Probability) and Stat 111 (Intro to Statistical Inference). You can find my teaching notes <a href="/teaching/"> here</a>.
-
-I am currently working as a Fundamental Analyst at Citadel Securities, where I get to research interesting market situations and observe game theory play out in real-world financial settings. In my free time, I enjoy running, reading, and writing short stories.
+I received my B.A. in Computer Science and Statistics from Harvard. I also previously worked at Citadel Securities as a fundamental analyst. I am grateful to be supported by an MIT Lemelson Engineering Presidential Fellowship and NSF Graduate Research Fellowship.

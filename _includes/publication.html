@@ -18,9 +18,6 @@
     <div class="publication-card__authors">{{ post.authors | markdownify }}</div>
     <div class="publication-card__links">
       <a href="{{ link_prefix }}{{ post.link }}" rel="permalink">Paper</a>
-      {% if post.doi %}
-        <a href="{{ post.doi }}">DOI</a>
-      {% endif %}
     </div>
   </div>
 </article>

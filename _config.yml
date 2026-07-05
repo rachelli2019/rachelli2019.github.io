@@ -21,7 +21,7 @@ repository               : "rachelli2019/rachelli2019.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "bio_photo_big.png"
+  avatar           : "bio_photo.png"
   name             : "Rachel Li"
   pronouns         : # example: "she/her"  
   bio              : "CS PhD @ MIT"

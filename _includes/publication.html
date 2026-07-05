@@ -10,9 +10,6 @@
   <div class="publication-card__body">
     <p class="publication-card__meta">
       <span>{{ post.conference | markdownify | remove: '<p>' | remove: '</p>' }}</span>
-      {% if post.date %}
-        <span>{{ post.date }}</span>
-      {% endif %}
     </p>
     <h3 class="publication-card__title">{{ title }}</h3>
     <div class="publication-card__authors">{{ post.authors | markdownify }}</div>

@@ -7,7 +7,7 @@
 
 - title: 'Strategyproof Voting under Correlated Beliefs'
   conference: '*NeurIPS 2023*'
-  authors: '[Daniel Halpern](https://daniel-halpern.com/), **Rachel Li**, and [Ariel D. Procaccia](http://procaccia.info)'
-  note: 'Senior thesis project, advised by [Ariel D. Procaccia](http://procaccia.info)'
+  authors: 'Daniel Halpern, **Rachel Li**, and Ariel D. Procaccia'
+  note: 'Senior thesis project, advised by Ariel D. Procaccia'
   link: 'strategyproof_voting_under_correlated_beliefs.pdf'
   date: '2023'

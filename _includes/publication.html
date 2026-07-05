@@ -16,6 +16,9 @@
     </p>
     <h3 class="publication-card__title">{{ title }}</h3>
     <div class="publication-card__authors">{{ post.authors | markdownify }}</div>
+    {% if post.note %}
+      <div class="publication-card__note">{{ post.note | markdownify }}</div>
+    {% endif %}
     <div class="publication-card__links">
       <a href="{{ link_prefix }}{{ post.link }}" rel="permalink">Paper</a>
     </div>

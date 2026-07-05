@@ -102,6 +102,17 @@
   }
 }
 
+.publication-card__note {
+  margin-top: 0.3rem;
+  color: $gray;
+  font-size: $type-size-6;
+  line-height: 1.45;
+
+  p {
+    margin: 0;
+  }
+}
+
 .publication-card__links {
   display: flex;
   flex-wrap: wrap;

@@ -140,6 +140,88 @@
   }
 }
 
+.fun-section {
+  margin-top: 2rem;
+}
+
+.fun-section__intro {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.9rem 1.2rem;
+  margin-bottom: 1.2rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid mix(#fff, $light-gray, 32%);
+  border-radius: 8px;
+  background: linear-gradient(135deg, #fff 0%, mix(#fff, $info-color, 95%) 100%);
+
+  p {
+    margin: 0;
+    color: $dark-gray;
+  }
+}
+
+.fun-section__link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.25rem;
+  padding: 0.35rem 0.85rem;
+  border: 1px solid mix(#fff, $info-color, 45%);
+  border-radius: 999px;
+  background: #fff;
+  color: mix(#000, $info-color, 16%);
+  font-size: $type-size-6;
+  font-weight: 700;
+  text-decoration: none;
+
+  &:hover {
+    border-color: $info-color;
+    text-decoration: none;
+  }
+}
+
+.baking-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+}
+
+.baking-card {
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid mix(#fff, $light-gray, 30%);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 10px 24px rgba($darker-gray, 0.08);
+
+  img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+  }
+}
+
+.baking-card__caption {
+  display: grid;
+  gap: 0.25rem;
+  padding: 0.8rem 0.9rem 0.9rem;
+}
+
+.baking-card__title {
+  color: $darker-gray;
+  font-size: $type-size-5;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.baking-card__text {
+  color: $gray;
+  font-size: $type-size-6;
+  line-height: 1.45;
+}
+
 @import "vendor/font-awesome/fontawesome";
 @import "vendor/font-awesome/solid";
 @import "vendor/font-awesome/brands";

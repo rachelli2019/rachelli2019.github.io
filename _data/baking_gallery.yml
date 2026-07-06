@@ -1,0 +1,6 @@
+# Add baking photos here after placing image files in /images/baking/.
+# Example:
+# - image: "baking/croissant.jpg"
+#   alt: "Freshly baked croissants on a cooling rack"
+#   title: "Croissants"
+#   caption: "Laminate once, regret nothing."
